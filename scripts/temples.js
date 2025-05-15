@@ -1,6 +1,6 @@
 // Hamburger menu toggle
-const menuButton = document.getElementById('menu');
-const navMenu = document.getElementById('navMenu');
+const menuButton = document.getElementById('menu-button');
+const navMenu = document.getElementById('nav-menu');
 
 menuButton.addEventListener('click', () => {
   navMenu.classList.toggle('show');
@@ -9,4 +9,4 @@ menuButton.addEventListener('click', () => {
 
 // Footer date and last modified
 document.getElementById('year').textContent = new Date().getFullYear();
-document.getElementById('lastModified').textContent = document.lastModified;
+document.getElementById('last-modified').textContent = document.lastModified;
